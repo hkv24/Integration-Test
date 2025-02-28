@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test:integration": "./scripts/test-integration.sh"
+    "test:integration": "./scripts/run-integration-test.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Integration test setup",
   "dependencies": {
     "@prisma/client": "^6.4.1",
     "@types/express": "^5.0.0",
